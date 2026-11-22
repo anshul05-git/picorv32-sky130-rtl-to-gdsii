@@ -1,0 +1,39 @@
+# Original RTL, testbenches and generated netlists
+*.v
+*.sv
+*.vh
+*.svh
+*.il
+
+# Simulation outputs
+*.vcd
+*.fst
+*.gtkw
+
+# Physical-design databases and implementation outputs
+runs/
+logs/
+*.odb
+*.def
+*.gds
+*.mag
+*.spef
+*.spice
+*.ext
+
+# PDK and technology collateral
+pdk/
+sky130A/
+libs/
+*.lef
+*.lib
+
+# Large internal archives
+*.zip
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo

@@ -1,0 +1,35 @@
+category,metric,value,unit,notes
+project,design,PicoRV32,,
+project,technology,SKY130A,,
+project,standard_cell_library,sky130_fd_sc_hd,,
+project,clock_period,10,ns,Configured constraint
+synthesis,mapped_instances,6709,cells,
+synthesis,sequential_cells,1597,cells,
+synthesis,combinational_cells,5112,cells,
+synthesis,standard_cell_area,88613.7376,um2,
+synthesis,sequential_cell_area,33968.8288,um2,
+synthesis,sequential_area_percentage,38.33,percent,
+synthesis,inferred_latches,0,count,
+synthesis,unmapped_instances,0,count,
+synthesis,lint_warnings,489,count,
+timing,analysis_corners,9,count,
+timing,aggregate_setup_violation_count,1925,corner-reported paths,Sum across nine corners
+timing,worst_setup_slack,-3.4267,ns,max_ss_100C_1v60
+timing,worst_hold_slack,0.0773,ns,Across nine corners
+timing,hold_violations,0,count,Across nine corners
+timing,max_capacitance_violations,17,count,Overall report
+timing,max_slew_violations,2313,count,Overall report
+physical_verification,magic_drc_coordinate_entries,6037,entries,Raw coordinate entries
+physical_verification,klayout_drc_markers,5392,markers,SKY130A rule deck
+physical_verification,antenna_violation_rows,0,rows,No entries in antenna summary
+physical_verification,lvs_layout_devices,10103,devices,
+physical_verification,lvs_reference_devices,10001,devices,
+physical_verification,lvs_layout_nets,10461,nets,
+physical_verification,lvs_reference_nets,10098,nets,
+physical_verification,lvs_disconnected_nodes,67,nodes,
+physical_verification,lvs_unmatched_decap_records,98,records,
+physical_verification,lvs_unmatched_antenna_diode_records,4,records,
+simulation,instruction_fetches,182,count,Verilator smoke test
+simulation,memory_reads,45,count,Verilator smoke test
+simulation,memory_writes,46,count,Verilator smoke test
+simulation,completion_time,11,us,Reached finish
